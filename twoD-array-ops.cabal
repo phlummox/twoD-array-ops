@@ -1,0 +1,27 @@
+name:                twoD-array-ops
+version:             0.1.0.0
+synopsis:            (Geometric) transformations on 2-D arrays
+description:         
+  (Geometric) transformations - flips, rotations and transpose - on 2-D arrays.
+homepage:            https://github.com/githubuser/twoD-array-ops#readme
+license:             PublicDomain
+license-file:        LICENSE
+author:              phlummox
+maintainer:          phlummox2@gmail.com
+copyright:           2018 phlummox
+category:            Data Structures
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Data.Array.TwoD.Operations
+  build-depends:       
+      base >= 4.0 && < 5
+    , array
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/phlummox/twoD-array-ops
